@@ -12,10 +12,10 @@ end
 
 
 def current_player(board)
-  playerinput == turn_count(board) + 1
-    if playerinput.even? == true
-      return "X"
-    elsif playerinput.odd? == true
-      return "O"
-    end
+  turn == turn_count(board)
+  if turn.odd? == true
+    return "X"
+  elsif turn.even? == true
+    return "O"
+  end
 end
