@@ -18,5 +18,5 @@ def current_player(board)
   # else
   #   return "O"
   # end
-  turn.even? ? "X" :  "O"
+  turn.even? ? "X" : "O"
 end
