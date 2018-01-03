@@ -14,7 +14,7 @@ def current_player(board)
   playerinput == turn_count(board) + 1
     if playerinput.even? == true
       return "X"
-    elsif playerinput.even? == true
+    elsif playerinput.odd? == true
       return "O"
     end
 end
